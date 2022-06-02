@@ -1,0 +1,62 @@
+@media only screen and (max-width: 600px){
+.header{display: none;}
+.banner{display: none;}
+.layout{display: none;}
+.layout-left{display: none;}
+.layout-right{display: none;}
+.footer{display: none;}
+
+.header-mobile{display: block;width: 100%;padding: 23px;border-bottom: 1px solid #e5e5e5;
+   }
+.header-mb-first{display: flex;justify-content: space-between;align-items: center;margin-bottom: 10px;}
+.header-mb-first div i{font-size: 20px;}
+.fa-cart-shopping{font-size: 20px;margin: 0 30;}
+.left-img{width: 13%;}
+.header-location{color:#3665f3; margin-top: 10px;}
+.ebay-samsung{margin-top: 20px;font-size: 11px;}
+.list-product{overflow-x: scroll;max-width: 500px;}
+
+
+.header-mb-second{border: 1px solid black;border-radius: 0;display: flex;}
+.header-mb-second input{font-size: 17px;}
+.header-mb-second button{background-color: #006efc;padding: 0 14px;border: none;}
+.fa-magnifying-glass{color: white;padding: 0;}
+.layout-mb{display: block;padding: 23px;max-width: 600px;}
+.layout-mb h1{font-weight: 600;font-size: 30px;}
+.galaxy-family{padding-bottom: 20px;}
+.galaxy-family h2{font-size: 17px;font-weight: 600;margin: 25 0;}
+.row-cols-3{text-align: center;font-weight: 100;}
+.category-mb{margin-bottom: 10px;
+    padding-bottom: 20px;border-bottom: 1px solid #e5e5e5;
+}
+.category-mb h2{font-size: 17px;font-weight: 600;margin: 25 0;}
+
+
+.limited-time-deal-mb h2{font-size: 17px;font-weight: 600;margin: 25 0;}
+
+
+
+.list-product ul li{margin-right: 7px;}
+/* samsung-product  */
+.samsung-product ul{list-style: none;padding: 0;}
+.samsung-product ul li{display: flex;align-items: center; margin-top: 20px;}
+.product-1{text-align: left;margin-left: 10px;font-size: 14px;width: 50%;}
+.product-1 div span{font-weight: 600;}
+.pro-duct-img{width: 50%;padding: 20 10;background-color:rgba(0,0,0,0.05); }
+.navigation{border-bottom: 1px solid #e5e5e5;
+    border-top: 1px solid #e5e5e5;}
+.navigation ul{margin: 0;}
+/* footer   */
+
+.footer-mb{display: block;padding: 23px;}
+.footer-mb-1{background-color: black;color: white;padding-top: 10px;}
+.footer-mb div ul{list-style: none;color: white;padding: 0;}
+.footer-mb div ul li{margin-top: 10px;margin-left: 10px;}
+.footer-mb-2{text-align: center;margin-top: 30px;color: #c7c7c7;border-top: 1px solid #c7c7c7;padding-bottom: 30px;}
+.footer-mb-2 div{margin-top: 10px;}
+
+
+img {
+    width: 100% !important;
+}
+}
